@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fontawesome.com/icons/facebook-square?style=brands');
+@import url('https://fontawesome.com/icons/book-open?style=light');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+body{
+    background-color: ivory;
+}
+.vertical-menu 
+{
+    display:flex;
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    left: 0;
+    background: #4ab84e;
+    align-content:flex-end;
+}
+.vertical-menu.text 
+{
+    position: fixed;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: rgb(176, 219, 166);
+    letter-spacing: 2px;
+
+}
+
+div ul{
+    width: 100%;
+    list-style: none;
+}
+
+div ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgb(109, 107, 107);
+}
+div ul li a{
+    position: relative;
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 40px;
+    font-weight: 500;
+    display:block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+div ul li a .fas{
+    width: 25px;
+    
+}
+div ul li:hover{
+    
+    background: #5959;
+}
+div ul li:hover a{
+    color:black;
+    border-left-color: chartreuse;
+    
+}
+div ul ul{
+    position: static;
+    display: none;
+}
+div ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+
+.social_media{
+    display: flex;
+   justify-content: space-around;
+}
+.social_media.fa {
+    color: white; 
+    background-color:  #4ab84e;
+}
+  
+.social_media.fa:hover {
+      opacity: 0.7;
+      background: skyblue;
+}
+#titlePicture img{
+    width: 100%;
+    align-content: flex-end;
+}
+  
+ #rightSide{
+     margin-left: 320px;
+ }
+ .main_content{
+    text-align: center;
+ }
+ .infoPicture{
+     padding:30px;
+     
+ }
+ .infoPicture img {
+    
+     
+     width: 50%;
+     width:600px;
+}
+#corner1{
+    border-radius: 25px;
+    border: 5px solid #73AD21;
+    padding: 20px; 
+    height: 600px;  
+    margin-top: 30px;
+    margin-left: 50px;
+}
+  
+  
+
